@@ -10,6 +10,8 @@ spec:
   - port: 80
     targetPort: 80
   type: LoadBalancer
+  externalIPs:
+   - 172.31.20.98
   selector:
      name: voting-app-pod
      app: demo-voting-app

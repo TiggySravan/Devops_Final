@@ -7,6 +7,8 @@ metadata:
     app: demo-voting-app
 spec:
   type: LoadBalancer
+  externalIPs:
+   - 172.31.20.98
   ports:
   - port: 80
     targetPort: 80
