@@ -4,7 +4,7 @@ metadata:
   name: result-service
   labels:
     name: result-service
-    app: demo-voting-app
+    app: test-app
 spec:
   externalIPs:
    - 172.31.20.98
